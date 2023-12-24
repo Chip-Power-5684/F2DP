@@ -111,6 +111,11 @@ h2 {
   justify-content: center;
 }
 
+.track_img2 {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+}
 @media screen and (max-width: 480px) {
     h2 {
         font-family: 'Inter', sans-serif;
