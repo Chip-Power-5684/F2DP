@@ -71,6 +71,14 @@ p {
 .sp_view {
   display: none;
 }
+
+h3 {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: -20px;
+}
 @media screen and (max-width: 480px) {
     .space1 {
         margin: 100px;
@@ -93,6 +101,14 @@ p {
       
       .sp_view {
         display: block;
+      }
+
+      h3 {
+        font-family: sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 0px;
       }
 }
 /*――――――――――――――――――――――――――――――――――― グローバル　End ―――――――――――――――――――――――――――――――――――*/
@@ -184,6 +200,28 @@ h2 {
       }
 }
 /*――――――――――――――――――――――――――――――――――― レギュレーション　End ―――――――――――――――――――――――――――――――――――*/
+
+/*――――――――――――――――――――――――――――――――――― 試合の流れ　Top ―――――――――――――――――――――――――――――――――――*/
+.game_position {
+  position: relative;
+  padding-left: 50px;
+}
+
+.game_li {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 20px;
+}
+@media screen and (max-width: 480px) {
+    .game_li {
+        font-family: sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        padding-top: 0px;
+    }
+}
+/*――――――――――――――――――――――――――――――――――― 試合の流れ　End ―――――――――――――――――――――――――――――――――――*/
 
 /*――――――――――――――――――――――――――――――――――― フッター　Top ―――――――――――――――――――――――――――――――――――*/
   .footer_space {
