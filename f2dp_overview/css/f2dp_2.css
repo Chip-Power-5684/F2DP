@@ -186,7 +186,7 @@ h2 {
           font-family: sans-serif;
           font-weight: 500;
           font-size: 14px;
-          padding-top: 0px;
+          padding-top: 10px;
       }
       
       .Regulation_img {
@@ -218,8 +218,36 @@ h2 {
         font-family: sans-serif;
         font-weight: 500;
         font-size: 14px;
-        padding-top: 0px;
+        padding-top: 10px;
     }
+
+    .game_position {
+        position: relative;
+        padding-left: 10px;
+    }
+}
+
+/*カッコの吹き出し*/
+.balloon1-top {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  background: #ff6060;
+}
+  
+.balloon1-top:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid #ff6060;
 }
 /*――――――――――――――――――――――――――――――――――― 試合の流れ　End ―――――――――――――――――――――――――――――――――――*/
 
