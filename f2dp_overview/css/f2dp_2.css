@@ -179,14 +179,14 @@ h2 {
 @media screen and (max-width: 480px) {
     .Regulation_position {
         position: relative;
-        padding-left: 10px;
+        padding-left: 0px;
       }
       
       .Regulation_li {
           font-family: sans-serif;
           font-weight: 500;
           font-size: 14px;
-          padding-top: 10px;
+          padding-top: 0px;
       }
       
       .Regulation_img {
@@ -214,6 +214,11 @@ h2 {
     padding-top: 20px;
 }
 @media screen and (max-width: 480px) {
+    .game_position {
+        position: relative;
+        padding-left: 0px;
+      }
+
     .game_li {
         font-family: sans-serif;
         font-weight: 500;
@@ -223,7 +228,7 @@ h2 {
 
     .game_position {
         position: relative;
-        padding-left: 10px;
+        padding-left: 0px;
     }
 }
 
@@ -248,6 +253,29 @@ h2 {
   margin-left: -15px;
   border: 15px solid transparent;
   border-bottom: 15px solid #ff6060;
+}
+@media screen and (max-width: 480px) {
+.balloon1-top {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #ffffff;
+  font-size: 14px;
+  background: #ff6060;
+}
+  
+.balloon1-top:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid #ff6060;
+}
 }
 /*――――――――――――――――――――――――――――――――――― 試合の流れ　End ―――――――――――――――――――――――――――――――――――*/
 
