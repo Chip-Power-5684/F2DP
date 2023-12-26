@@ -340,6 +340,32 @@ h2 {
         height: 70px;
         justify-content: center;
       }
+
+      .start_1 {
+        position: relative;
+        top: 50px;
+        color: #000000;
+      }
+      
+      .start_2 {
+        position: relative;
+        text-align: center;
+      }
+      
+      .start_2 p {
+        display: inline-block;
+        text-align: left;
+        color: #000000;
+      }
+      
+      .start_3 {
+        position: relative;
+        text-align: center;
+      }
+        
+      .start_3 p {
+        color: #000000;
+      }
 }
 /*――――――――――――――――――――――――――――――――――― トラック　End ―――――――――――――――――――――――――――――――――――*/
 
