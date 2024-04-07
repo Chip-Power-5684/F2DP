@@ -391,6 +391,11 @@ h2 {
   list-style: none;
   margin-bottom: 10px;
 }
+
+.Regulation_img2 {
+  list-style: none;
+  height: 200px;
+}  
 @media screen and (max-width: 480px) {
     .Regulation_position {
         position: relative;
@@ -412,6 +417,11 @@ h2 {
       .Regulation_img_p {
         list-style: none;
         margin-bottom: 10px;
+      }
+
+      .Regulation_img2 {
+        list-style: none;
+        height: 100px;
       }
 }
 /*――――――――――――――――――――――――――――――――――― レギュレーション　End ―――――――――――――――――――――――――――――――――――*/
