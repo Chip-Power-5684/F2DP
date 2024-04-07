@@ -385,7 +385,7 @@ h2 {
 .Regulation_img {
   list-style: none;
   height: 200px;
-}  
+}
 
 .Regulation_img_p {
   list-style: none;
@@ -412,8 +412,13 @@ h2 {
       .Regulation_img {
         list-style: none;
         height: 160px;
-      }  
+      }
       
+      .Regulation_img_1 {
+        list-style: none;
+        height: 300px;
+      }
+
       .Regulation_img_p {
         list-style: none;
         margin-bottom: 10px;
