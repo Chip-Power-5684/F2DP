@@ -45,10 +45,32 @@
 
 <header>
   <div class="inner">
-    <div class="logo">  
+    <div class="">  
       <img src="images/f2powered_w.png" class="logo">
-    </div>  
-    </ul>
+    </div>
+    <details style="color: white" class="header_content pc_view" id="accordion">
+      　<summary>
+          <span class="details_summary_inner summary_inner"><span class="icon"></span>目次</span>
+        </summary>
+        <ul class="header_content1">
+      　　<li class="jumpButton"><a href="#idtrack" style="color: white;">F2Powered主催"F2DP"の概要</a></li>
+      　　<li class="jumpButton"><a href="#idnews" style="color: white;">News</a></li>
+      　　<li class="jumpButton"><a href="#idtrack" style="color: white;">Track</a></li>
+      　　<li class="jumpButton"><a href="#idregulation" style="color: white;">Regulation</a></li>
+      　　<li class="jumpButton"><a href="#idGradingcriteria" style="color: white;">Grading criteria & Grading methods</a></li>
+      　　<li class="jumpButton"><a href="#idFlowofthegame" style="color: white;">Flow of the game</a></li>
+        </ul>
+      　　
+          <script>
+            const jumpButtons =
+            document.querySelectorAll(".jumpButton")
+            const details =
+            document.getElementById("accordion");
+
+            jumpButtons.forEach(button => {button.addEventListener("click",function() {details.removeAttribute("open");});});
+          </script>
+
+    </details>
   </div>
 </header>
 <div id="main"></div>
